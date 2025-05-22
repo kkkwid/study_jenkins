@@ -15,7 +15,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 @SpringBootTest
 class CalculatorServiceTest {
     @Autowired
-    private CalculatorService calculatorService;
+    private CalculatorService calculatorService  ;
 
     private static Stream<Arguments> provideDTOSource() {
         return Stream.of(
